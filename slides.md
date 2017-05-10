@@ -1,441 +1,237 @@
 <!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
 
-# REVEAL.JS TEMPLATE
+# ALEJANDRO VILLAMARIN
 <!-- .element: class="no-toc-progress" --> <!-- slide not in toc progress bar -->
 
-## [reveal.js][3] presentation written in [markdown][4] set up with [fabric][5] & [fabsetup][6]
+## A Software Craftsman with a curious mind striving to improve every day
 
-created by [theno](https://github.com/theno) | 2017-01-05 | [online][1] | [src][2]
+Updated 2017-05-09 | [Linkeidn] [1] | [Github] [2] | [StackOverflow] [3] | [Personal Site] [4]
 
 
-[1]: https://theno.github.io/revealjs_template
-[2]: https://github.com/theno/revealjs_template
-
-[3]: http://lab.hakim.se/reveal-js/
-[4]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-[5]: http://www.fabfile.org/
-[6]: https://github.com/theno/fabsetup
+[1]: https://linkedin.com/in/avillamarin
+[2]: https://github.com/internetmosquito
+[3]: http://stackoverflow.com/cv/alejandrovk
+[4]: http://internetmosquito.com
 
 
 ----  ----
 
-# 1. reveal.js
+# Working experience
 
 ----
 
-## reveal.js
+## CTO & Co-founder at OpenCoast
 
-> "A framework for easily creating __beautiful presentations__ using HTML."
->
-> -- <cite>https://github.com/hakimel/reveal.js</cite>
+* **Feb 2014 - Present**
+* Built from the ground-up a planning and management application for watersports schools
+[Bloowatch][7] which is currently being used by hundreds of customers, in a growing pace
+* Worked as the CTO in the Open Coast Company and singlehanded managed all the operations
+from DevOps to front-end to back-end development, data modeling and Architecting process.
+Conveying from using Java as the main backbone of our technology stack (Spring.io, Ant, Maven,
+Hadoop) to a more "modern" Pythonic one (Flask- Django) that is currently being used
+* Streamline work and focus on tasks relate with project management which include Scrum and Agile
+methodologies
+* Successfully coded new Java code, Python (Django-Flask), Postgres (POSTGIS), MongoDB, REDIS),
+Celery, used Docker and Ansible for CI & CD (used Vagrant and Chef in the past), Ember as the
+Javascript framework, HTML5 & CSS3 & Bootstrap, played a fundamental part for this project with a hands-on apparoch
 
-<div class="fragment" />
 
-* It's basically a static website displayed in a *browser*
-  * Works better with *Chrome* than *Firefox*
-* <!-- .element: class="fragment" -->
-  __Markdown support__ -> *easy editing*:
-  * <!-- .element: class="fragment" --> Don't bother with HTML syntax
-  * <!-- .element: class="fragment" --> Write slides in a markdown file
-
-----
-
-## reveal.js supports Markdown
-
-Writing slides in Markdown is easy:
-
-```markdown
-## reveal.js
-
-> "A framework for easily creating beautiful presentations using HTML."
->
-> -- <cite>https://github.com/hakimel/reveal.js</cite>
-
-* It's basically a website displayed in a browser
-* Works better with Chrome than Firefox
-* Markdown support -> easy editing:
-  * Don't bother with xml syntax
-  * Write slides in a markdown file
-```
+[7]: https://bloowatch.com
 
 ----
 
-## reveal.js: Showroom
+## Director of Engineering at Wizbots
 
-Some reveal.js presentations:
-* *"Official"* demo: http://lab.hakim.se/reveal-js
-* http://slid.es/gsklee/functional-programming-in-5-minutes
-* http://www.adidahiya.com/design.html
-* http://slides.drublic.de/awesome-code
-* http://hoebel.net/presentations_archive/saltstack/saltstack.html
+* **Sept 2016 - Present**
+* As a Principal Member of Technical Staff had to own the software design and development for
+major components of [Wizbots][8] platform
+* Dive deep into any part of the stack and low level systems, as well as design broad
+distributed system interactions
+* Defined and participated in the technological roadmap to align with business goals, taking into
+consideration budget restrictions, schedules and remote team of developers
 
-More demos: https://github.com/hakimel/reveal.js/wiki/Example-Presentations
+
+[8]: https://wizbots.com
+
+----
+
+## FullStack developer for Big Data Analytics and Workflow Optimization Product at Genesys
+
+* **Feb 2014 - Apr 2015**
+* Worked sometime as a Full Stack Python developer using an interesting range of technologies:
+Javascript, jQuery, Angular in the front-end and Python Flask in the back-end
+* Participated in the evolution and maintenance of a Social Media Big Data Platform, [SocialOptmizr][9], bug fixing and working on new features.
+
+[9]: http://www.crunchbase.com/organization/socialoptimizr#/entity
+
+----
+
+## R&D Engineer at Tecnalia
+
+* **Jan 2010 - Feb 2014**
+* Established strategic alliance in mid-east and honorably received appreciation in Cairo, Egypt for
+the variability management tool named PLUM, an in-house development
+* Developed of an in-house middleware solution based on OSGI and Eclipse called [Smool][10], allowed end users to create rich content requests using all the sensor available at hand as well as acknowledge gratitude and obtain new projects and funding through this project
+* Directed all functions and activities associated with multi-departmental matrix teams to meet
+project requirements. Plan, organise and execute core phases of technology projects which
+included cloud based apps using services like Java, Eclipse, OSGI, RDF, Ontologies
+
+[10]: www.tecnalia.com/es/ict-european-software-institute/oportunidades-de-negocio/oportunidades-de-
+negocio.htm
+
+
+----
+
+## R&D Engineer at European Software Institute
+
+* **Spet 2007 - Jan 2010**
+* Developed and structured legacy system such as software product line product (GNSIS) and
+handled meeting scheduling tool (Meeting Space) using VBasic and C++ also started to work in
+European and national R&D
+* Fostered congenial relations with multiple personnel including an individual sub contracted by
+NASA in WV USA and derived substantial revenue by closely working with [NASA][11]
+* Functioned with European and national R&D projects, as well as spearheaded management of a
+virtualisation infrastructure used to serve several in-house services: SVN, FTP, Web servers, etc
+
+[11]: http://www.europapress.es/euskadi/noticia-esi-tecnalia-firma-contrato-nasa-demostrar-eficacia-actividades-produccion-software-20070419154757.html
 
 
 ----  ----
 
-# 2. fabric and fabsetup
+# Projects
 
 ----
 
-# fabric
+## Bloowatch
 
-> "Fabric is a Python (2.5-2.7) library and command-line tool
-> for streamlining the use of SSH for application deployment
-> or systems administration tasks."
->
-> -- <cite>http://www.fabfile.org/</cite>
-
-<div class="fragment" />
-
-__`>>shell-deploy-scripts on steroids!<<`__
+* A waterposts management tool for Watersports Schools
+* Manage roster, agenda, customers, courses, accommodation and bookings, all in a single place
+* Online booking features integrated in School's websites
+* Tech Stack: Python, Django, Postgres, Celery, Ember, Docker, Ansible.
+* **Responsabilities**: Architecture definition, Data model definition, hands-on development, team management and leadership, Scrum Master, QA. 
 
 ----
 
-## fab and fabfile.py
+###  Bloowatch Screenshots
 
-* __`fabfile.py`__ contains the fabric tasks
-  * Bash commands _"written"_ in Python (2.5 - 2.7)
-* Command __`fab`__ executes a task
+![](img/bloowatch_1.png)
 
 ----
 
-example __`fabfile.py`__:
+###  Bloowatch Screenshots
 
-```python
-from fabric.api import env, run, task
-
-@task
-def show_ips():
-    ips = run('/bin/hostname -I')
-    print('IPs of {}:\n  {}'.format(env.host, ips))
-```
-
-<div class="fragment" />
-
-__`fab`__ uses the fabfile of the current dir:
-
-```bash
-> ls
-fabfile.py
-```
-
-<div class="fragment" />
-
-```bash
-> fab show_ips  -H user@example_host
-[example_host] Executing task 'ip_addresses'
-[example_host] run: hostname -I
-[example_host] out: 1.2.3.4
-
-IPs of mobi12.uni.cx:
-  1.2.3.4
-
-  Done.  Disconnecting from example_host... done.
-```
+![](img/bloowatch_2.png)
 
 ----
 
-# fabsetup
+###  Bloowatch Screenshots
 
-Collection of __fabric tasks__:
-* set up an [owncloud server][7]
-* set up an own android app repository (own [F-Droid server][8])
-* set up a linux desktop:
-  eg. [configure vim, tmux, solarized colors][9] *(dotfiles on steroids!)*
-* set up ...
-* <!-- .element: class="fragment" -->
- __set up everything you need for a *reveal.js* presentation__:
- ```sh
- fab setup.revealjs
- ```
+![](img/bloowatch_3.png)
 
-[7]: https://github.com/theno/fabsetup/blob/master/howtos/owncloud.md
-[8]: https://github.com/theno/fabsetup/blob/master/howtos/f-droid-repo.md
-[9]: https://github.com/theno/fabsetup/blob/master/howtos/no-sudo.md
+----
+
+###  Bloowatch Screenshots
+
+![](img/bloowatch_4.png)
+
+----
+
+###  Bloowatch Screenshots
+
+![](img/bloowatch_5.png)
+
+----
+
+###  Bloowatch Screenshots
+
+![](img/bloowatch_6.png)
+
+----
+
+## Wizbots
+
+* Wizbots is a learning platform for kids to learn programming and Robotics
+* Kids learn fundamentals of programming with Java and Robotics with LEGO
+* Fosters teamwork and learning of new abilities
+* Tech Stack: Python, Flask, Postgres, ElasticSearch, Angular, Eclipse, Java.
+* **Responsabilities**: Roadmap planning, hands-on development, API implmentation, team management and leadership.
+
+----
+
+###  Wizbots Screenshots
+
+![](img/wizbots_1.png)
+
+----
+
+###  Wizbots Screenshots
+
+![](img/wizbots_2.png)
+
+----
+
+###  Wizbots Screenshots
+
+![](img/wizbots_3.png)
+
+----
+
+###  Wizbots Screenshots
+
+![](img/wizbots_4.png)
+
+----
+
+###  Wizbots Screenshots
+
+![](img/wizbots_5.png)
 
 
 ----  ----
 
-# 3. fab setup.revealjs
+# About me
 
 ----
 
-## A reveal.js Template
+## Education and certifications
 
-boilerplate for getting started on a nice reveal.js presentation:
-* reveal.js code installed (comes with built-in plugins)
-* Additional reveal.js plugins installed
-* __`index.html`__ prepared accordingly
-* All slides are defined in __`slides.md`__
+* Master's Degree in Computer Science, University of Deusto, 2006
 
-----
+* Certificate in Advanced Studies, University of Deusto, 2009
 
-## Set It Up
 
-* install __fabsetup__:
-```sh
-sudo apt-get install  git  fabric              #
-mkdir -p ~/repos  &&  cd ~/repos
-git clone https://github.com/theno/fabsetup
-```
+## Areas of interest
 
-* run fabric task __`setup.revealjs`__:
-```sh
-cd ~/repos/fabsetup
-fab setup.revealjs  -H localhost
-```
+Software Engineering | Application Development | Technical Troubleshooting | Team Leadership | Scrum |
+Python | Javascript | Linux | Java | Testing methodologies
+
+## Technology proficiencies
+
+Python | Django | Flask | Ember | Angular | Eclipse | Java | Android | REST | R&D | Open Source | Middleware | XML | Git | Scrum | OOP | Embedded Software | MongoDB | JavaScript | OSGI | Linux | Docker | Hadoop | Hive
+
 
 ----
 
-## fab setup.revealjs
 
-*Asks for:*
- * Presentation base directory
- * Title
- * Sub-title
- * Short description
+![](img/profile.png)
 
-----
+## Contact info
 
-## fab setup.revealjs
+* [Email][12]
+* [Twitter][13]
+* [Skype][14] 
+* Phone: 0034 - 637 14 92 58
 
-*Optionally:*
- * Create github repo
- * Download npm libs
-
-*When running again (also optional):*
- * Re-install reveal.js codebase
-
-----
-
-[howto](https://github.com/theno/fabsetup/blob/master/howtos/revealjs.md)
-
-----
-
-## Boilerplate File Structure
-
-```sh
-~/repos/my_presi> tree
-.
-├── .git/
-├── .gitignore
-│
-├── README.md   <-- Short description and usage
-│
-├── slides.md   <-- All slides are defined here
-├── index.html  <-- Configuration
-├── img/
-│   └── thanks.jpg  <-- good place for images
-│
-└── reveal.js/   <--.
-    ├── css/         `-- reveal.js code "hidden" in a subdir
-    ├── js/               (keeps the basedir clean)
-    ├── plugin/
-    ...
-    ├── img -> ../img                \
-    ├── reveal.js -> ../reveal.js     |_ symbolic links in order
-    ├── slides.md -> ../slides.md     |   to run `npm start`
-    └── index.html -> ../index.html  /
-```
-
-----
-
-*template features*
-
-----
-
-## Plugins Built-In
-
-All the built-in plugins are enabled in the __`index.html`__:
-* __[marked.js, markdown.js][10]__: Markdown support
-* __[highlight.js][11]__: Code syntax highlighting
-* __zoom.js__: Zoom in and out with `ALT+click`
-* __[notes.js][13]__: Speaker notes
-* __[math.js][14]__: Formatting math expressions
-
-[10]: https://github.com/hakimel/reveal.js/#markdown
-[11]: https://github.com/hakimel/reveal.js/#code-syntax-highlighting
-[13]: https://github.com/hakimel/reveal.js/#speaker-notes
-[14]: https://github.com/hakimel/reveal.js/#mathjax
-
-----
-
-## Additional Plugins
-
-This additional plugins will be installed and set up, too:
-* __[menu.js][15]__: Slideout menu (slide index, change theme and transition)
-* __[toc-progress.js][16]__: *"LaTeX Beamer-like progress indicator"*
-* __[title-footer.js][17]__: *"Footer showing title of presentation"*
-
-[15]: https://github.com/denehyg/reveal.js-menu#revealjs-menu
-[16]: https://github.com/e-gor/Reveal.js-TOC-Progress
-[17]: https://github.com/e-gor/Reveal.js-Title-Footer
-
-----
-
-## Customizations in reveal.js
-
-* Don't Capitalize Titles (NO FULL UPPERCASE HEADINGS)
-* Images are displayed without border
-
-----
-
-## Special Markdown Slide dividers
-
-*Two dividers exist:*
-* New horizontal slide: `\n----  ----\n`
-* New vertical slide: `\n----\n`
-
-*Win-win:*
-* ["Raw"][18] `slides.md`: Easy to read and edit
-* Horizontal lines in [rendered Markdown][19]: Easy to read, too
-
-[18]: https://raw.githubusercontent.com/theno/revealjs_template/master/slides.md
-[19]: https://github.com/theno/revealjs_template/blob/master/slides.md
-
-----
-
-## Create PDF
-
-*cumbersome.*
-* With [decktape](https://github.com/astefanutti/decktape)
-
-```sh
-cd ~/bin/decktape/active && \                                               #
-./phantomjs decktape.js --size 1280x800 URL ~/repos/my_presi/my_presi.pdf
-```
-
-* Or just print the `slides.md` rendered by github into a PDF:
-  https://github.com/theno/revealjs_template/blob/master/slides.md
-
----
-
-* [Printing with chromium](https://github.com/hakimel/reveal.js#pdf-export)
-  (or chrome) does not work well:
-  https://theno.github.io/revealjs_template/?print-pdf#/
-
-Note:
-URL can be of:
-* localhost:8000
-* github.io page
-
-----
-
-## Shortcut
-
-Checkout the template presentation repo:
-```sh
-git clone https://github.com/theno/revealjs_template  ~/repos/my_presi
-```
-
-Then:
-* Adjust `<title>reveal.js template</title>` in __`index.html`__
-* Edit __`slides.md`__
-* Add symbolic link:
-  ```sh
-  cd ~/repos/my_presi  &&  ln -snf ../reveal.js  reveal.js/reveal.js
-  ```
-
+[12]: mailto:alejandrovillamarin@internetmosquito.com
+[13]: https://twitter.com/avillamarink
+[14]: skype:alejandrovillamarin?add
 
 ----  ----
 
-# 4. Publishing at github.io
-
-
-----
-
-## Publishing as github page
-
-A github repo (with `index.html`) can be rendered into a github.io page
-
-1. Add remote repo at github.com <br>
-   *(automated in fabsetup task setup.revealjs)*
-
-1. [Configure][20] entry point for github.io page <br>
-   *(manually, select "master branch")*
-
-
-[20]: https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/
-[1_]: https://theno.github.io/revealjs_template
-[2_]: https://github.com/theno/revealjs_template
-
-
-----  ----
-
-# 5. Conclusion and Outlook
-
-----
-
-## Conclusion
-
-* Presentations with __reveal.js__ are fancy and nice
-* Writing slides in __Markdown__ is easy
-* __fabric__ is a framework for powerfull setup scripts
-* __fabsetup__ is a collection of fabric tasks
-
-----
-
-__`fab setup.revealjs`__ (one of this tasks):
-  Creates the boilerplate of your presentation:
-  * Clean basedir (reveal.js codebase hidden in a subdir)
-  * Slides are written in a __Markdown file__
-  * Usefull plugins enabled (eg. __footer, toc, menu__)
-  * Versioning with __git__
-  * Publishing at __github.io__
-
-__`>>just edit the slides.md<<`__  <!-- .element: class="fragment" -->
-
-----
-
-## Outlook
-
-* Publishing with own webserver
-  * Implement restricted access
-* Custom design
-  * Create themes / corporate design
-* Explore [more plugins][21]
-* [Customize][23] fabsetup task `setup.revealjs`
-
----
-
-Alternative:
-
-[prez][22] -- *"Opiniated Reveal slideshow generator with nice
-PDF output and ability to treat notes as first-class content."*
-
-[21]: https://github.com/hakimel/reveal.js/wiki/Plugins,-Tools-and-Hardware
-[22]: https://github.com/byteclubfr/prez
-[23]: https://github.com/theno/fabsetup/blob/master/howtos/fabsetup_custom.md
-
-----
-
-## References
-
-* reveal.js: [http://lab.hakim.se/reveal-js](http://lab.hakim.se/reveal-js/)
-  * at github: [https://github.com/hakimel/reveal.js](https://github.com/hakimel/reveal.js)
-
----
-
-* markdown: [https://daringfireball.net/projects/markdown](https://daringfireball.net/projects/markdown/)
-  * cheatsheet: [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
----
-
-* fabric: [http://www.fabfile.org](http://www.fabfile.org/)
-  * at github: [https://github.com/fabric/fabric](https://github.com/fabric/fabric)
-
----
-
-* fabsetup: [https://github.com/theno/fabsetup](https://github.com/theno/fabsetup)
-  * revealjs [howto](https://github.com/theno/fabsetup/blob/master/howtos/revealjs.md)
-
-
-----  ----
 
 <!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
 
-### *Thank You for Your attention!*
+### *Thanks for your interest!*
 <!-- .element: class="no-toc-progress" -->
 
-![](img/thanks.jpg)
+![](img/thanks.png)
